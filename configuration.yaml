@@ -7,6 +7,11 @@ frontend:
   themes: !include_dir_merge_named themes
 
 automation ui: !include automations.yaml
-automation manual: !include_dir_merge_list automations/
+#automation manual: !include_dir_merge_list automations/
 script: !include scripts.yaml
 scene: !include scenes.yaml
+
+homeassistant:
+  name: 114 Priory Park
+  unit_system: metric
+  currency: GBP
