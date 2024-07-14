@@ -14,4 +14,4 @@ scene: !include scenes.yaml
 homeassistant:
   name: 114 Priory Park
   unit_system: metric
-  currency: GBP
+  currency: USD
