@@ -1,0 +1,19 @@
+- id: '1709402562198'
+  alias: Utility-MotionSensor
+  description: ''
+  use_blueprint:
+    path: homeassistant/motion_light.yaml
+    input:
+      motion_entity: binary_sensor.utility_motion_sensor_occupancy
+      light_target:
+        entity_id: light.texas_instruments_coordinator_utility_lights_all
+- id: '1720378341159'
+  alias: Atic motion
+  description: ''
+  use_blueprint:
+    path: homeassistant/motion_light.yaml
+    input:
+      motion_entity: binary_sensor.atic_motion_motion
+      light_target:
+        device_id: c9742b66aeda1631ad3a6bb58a3e90bf
+      no_motion_wait: 300

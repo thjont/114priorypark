@@ -1,0 +1,154 @@
+- id: '1709236785072'
+  name: Green
+  entities:
+    light.colour_2_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode: xy
+      brightness: 254
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 100
+      - 96.471
+      rgb_color:
+      - 91
+      - 255
+      - 9
+      xy_color:
+      - 0.224
+      - 0.701
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Colour 2 Light
+      supported_features: 44
+      state: 'on'
+    light.colour_3_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode: xy
+      brightness: 254
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 105.195
+      - 90.588
+      rgb_color:
+      - 81
+      - 255
+      - 24
+      xy_color:
+      - 0.213
+      - 0.705
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Colour 3 Light
+      supported_features: 44
+      state: 'on'
+    light.colour_4_light_3:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode: xy
+      brightness: 254
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 102.338
+      - 90.588
+      rgb_color:
+      - 92
+      - 255
+      - 24
+      xy_color:
+      - 0.225
+      - 0.695
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Colour 4 Light
+      supported_features: 44
+      state: 'on'
+    light.colour_5_light_2:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode: xy
+      brightness: 254
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 102.353
+      - 93.333
+      rgb_color:
+      - 87
+      - 255
+      - 17
+      xy_color:
+      - 0.22
+      - 0.702
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Colour 5 Light
+      supported_features: 44
+      state: 'on'
+    light.colour_1_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode: xy
+      brightness: 254
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      - 97.778
+      - 95.294
+      rgb_color:
+      - 102
+      - 255
+      - 12
+      xy_color:
+      - 0.236
+      - 0.69
+      off_with_transition: false
+      off_brightness:
+      friendly_name: Colour-1 Light
+      supported_features: 44
+      state: 'on'
+  metadata: {}
