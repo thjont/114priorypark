@@ -15,6 +15,12 @@ homeassistant:
   name: 114 Priory Park
   unit_system: metric
   currency: GBP
-  longitude: 54.33372
-  latitude: 5.58304
-  
+  longitude: !secret home_longitude #54.33372
+  latitude: !secret home_latitude # 5.58304
+
+zone:
+  - name: Home
+    latitude: !secret home_latitude
+    longitude: !secret home_longitude
+    radius: 75
+    icon: mdi:home
