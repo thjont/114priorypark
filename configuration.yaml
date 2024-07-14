@@ -14,4 +14,7 @@ scene: !include scenes.yaml
 homeassistant:
   name: 114 Priory Park
   unit_system: metric
-  currency: USD
+  currency: GBP
+  longitude: 54.33372
+  latitude: 5.58304
+  
