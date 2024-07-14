@@ -1,0 +1,51 @@
+# I've taken this .gitignore from https://alex3305.github.io/docs/homeassistant/gitignore/#editors
+
+
+# Example .gitignore file for your config dir.
+# An * ensures that everything will be ignored.
+*
+# You can whitelist files/folders with !, these will not be ignored.
+!*.yaml
+!.gitignore
+!*.md
+!*.code-workspace
+
+# Home Assistant directory exclusions
+!.managed-by-home-assistant
+!**/.managed-by-home-assistant
+
+# Exclude Home Assistant internals
+blueprints/
+image/
+.HA_VERSION
+.cloud
+.shopping_list.json
+.storage
+ip_bans.yaml
+known_devices.yaml
+
+# Exclude log files
+*.log
+*.log*
+
+# Exclude secrets
+.google.token
+.google_assistant_service_account.json
+esphome/secrets.yaml
+google_calendars.yaml
+secrets.yaml
+
+# HACS
+!**/.managed-by-hacs
+!.managed-by-hacs
+custom_components/**
+themes/**
+www/community/**
+
+# Home Assistant UI generated files
+automations.yaml
+scripts.yaml
+scenes.yaml
+
+# Editors
+.vscode/
