@@ -43,9 +43,9 @@ themes/**
 www/community/**
 
 # Home Assistant UI generated files
-automations.yaml
-scripts.yaml
-scenes.yaml
+# automations.yaml
+# scripts.yaml
+# scenes.yaml
 
 # Editors
 .vscode/
