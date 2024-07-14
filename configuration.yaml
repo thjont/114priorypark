@@ -19,7 +19,7 @@ homeassistant:
   latitude: !secret home_latitude # 5.58304
 
 zone:
-  - name: Home
+  - name: Home_new
     latitude: !secret home_latitude
     longitude: !secret home_longitude
     radius: 75
