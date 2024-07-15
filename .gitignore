@@ -15,7 +15,7 @@
 !**/.managed-by-home-assistant
 
 # Exclude Home Assistant internals
-blueprints/
+#blueprints/
 image/
 .HA_VERSION
 .cloud
