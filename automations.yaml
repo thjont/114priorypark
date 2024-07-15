@@ -1,12 +1,3 @@
-- id: '1709402562198'
-  alias: Utility-MotionSensor
-  description: ''
-  use_blueprint:
-    path: homeassistant/motion_light.yaml
-    input:
-      motion_entity: binary_sensor.utility_motion_sensor_occupancy
-      light_target:
-        entity_id: light.zigbee_grouped_devices_utility_lights_all
 - id: '1720378341159'
   alias: Atic motion
   description: ''
@@ -17,3 +8,12 @@
       light_target:
         device_id: c9742b66aeda1631ad3a6bb58a3e90bf
       no_motion_wait: 300
+- id: '1721083870771'
+  alias: auto-utility
+  description: ''
+  use_blueprint:
+    path: homeassistant/motion_light.yaml
+    input:
+      motion_entity: binary_sensor.motion_utility_1_occupancy
+      light_target:
+        entity_id: light.zigbee_grouped_devices_lights_utility_all

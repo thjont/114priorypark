@@ -1,5 +1,5 @@
 - id: '1721080834912'
-  name: Kitchen-Sofa
+  name: Kkitchen-sofa-bright
   entities:
     light.light_kitchensofa_3_light:
       min_color_temp_kelvin: 2202
@@ -119,7 +119,7 @@
       color_mode:
       brightness:
       off_with_transition: false
-      off_brightness: 234
+      off_brightness: 102
       friendly_name: light-kitchendiningroom-5 Light
       supported_features: 40
       state: 'off'
@@ -161,7 +161,7 @@
       rgb_color:
       xy_color:
       off_with_transition: false
-      off_brightness: 234
+      off_brightness: 230
       friendly_name: light-kitchenkitchen-c1 Light
       supported_features: 44
       state: 'off'
@@ -184,7 +184,7 @@
       rgb_color:
       xy_color:
       off_with_transition: false
-      off_brightness: 234
+      off_brightness: 230
       friendly_name: light-kitchenkitchen-c2 Light
       supported_features: 44
       state: 'off'
@@ -207,7 +207,7 @@
       rgb_color:
       xy_color:
       off_with_transition: false
-      off_brightness: 234
+      off_brightness: 230
       friendly_name: light-kitchenkitchen-c3 Light
       supported_features: 44
       state: 'off'
@@ -230,7 +230,7 @@
       rgb_color:
       xy_color:
       off_with_transition: false
-      off_brightness: 254
+      off_brightness: 230
       friendly_name: light-kitchenworktop-1 Light
       supported_features: 44
       state: 'off'
@@ -253,9 +253,28 @@
       rgb_color:
       xy_color:
       off_with_transition: false
-      off_brightness: 234
+      off_brightness: 230
       friendly_name: light-kitchenworktop-2 Light
       supported_features: 44
+      state: 'off'
+    light.light_kitchenkitchen_1_light_2:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 212
+      friendly_name: light-kitchenkitchen-1 Light
+      supported_features: 40
       state: 'off'
   metadata: {}
 - id: '1721081452422'
@@ -580,253 +599,7 @@
       rgb_color:
       xy_color:
       off_with_transition: false
-      off_brightness: 204
-      friendly_name: light-kitchensofa-c5 Light
-      supported_features: 44
-      state: 'off'
-    light.light_kitchendiningroom_5:
-      supported_color_modes:
-      - brightness
-      color_mode:
-      brightness:
-      off_with_transition: false
-      off_brightness: 234
-      friendly_name: light-kitchendiningroom-5 Light
-      supported_features: 40
-      state: 'off'
-    light.light_kitchenkitchen_2_light:
-      min_color_temp_kelvin: 2202
-      max_color_temp_kelvin: 4000
-      min_mireds: 250
-      max_mireds: 454
-      supported_color_modes:
-      - color_temp
-      color_mode:
-      brightness:
-      color_temp_kelvin:
-      color_temp:
-      hs_color:
-      rgb_color:
-      xy_color:
-      off_with_transition: false
-      off_brightness: 234
-      friendly_name: light-kitchenkitchen-2 Light
-      supported_features: 40
-      state: 'off'
-    light.light_kitchenkitchen_c1_light:
-      min_color_temp_kelvin: 2202
-      max_color_temp_kelvin: 4000
-      min_mireds: 250
-      max_mireds: 454
-      effect_list:
-      - colorloop
-      supported_color_modes:
-      - color_temp
-      - xy
-      effect:
-      color_mode:
-      brightness:
-      color_temp_kelvin:
-      color_temp:
-      hs_color:
-      rgb_color:
-      xy_color:
-      off_with_transition: false
-      off_brightness: 234
-      friendly_name: light-kitchenkitchen-c1 Light
-      supported_features: 44
-      state: 'off'
-    light.light_kitchenkitchen_c2_light:
-      min_color_temp_kelvin: 2202
-      max_color_temp_kelvin: 4000
-      min_mireds: 250
-      max_mireds: 454
-      effect_list:
-      - colorloop
-      supported_color_modes:
-      - color_temp
-      - xy
-      effect:
-      color_mode:
-      brightness:
-      color_temp_kelvin:
-      color_temp:
-      hs_color:
-      rgb_color:
-      xy_color:
-      off_with_transition: false
-      off_brightness: 234
-      friendly_name: light-kitchenkitchen-c2 Light
-      supported_features: 44
-      state: 'off'
-    light.light_kitchenkitchen_c3_light:
-      min_color_temp_kelvin: 2202
-      max_color_temp_kelvin: 4000
-      min_mireds: 250
-      max_mireds: 454
-      effect_list:
-      - colorloop
-      supported_color_modes:
-      - color_temp
-      - xy
-      effect:
-      color_mode:
-      brightness:
-      color_temp_kelvin:
-      color_temp:
-      hs_color:
-      rgb_color:
-      xy_color:
-      off_with_transition: false
-      off_brightness: 234
-      friendly_name: light-kitchenkitchen-c3 Light
-      supported_features: 44
-      state: 'off'
-    light.light_kitchenworktop_1_light:
-      min_color_temp_kelvin: 2020
-      max_color_temp_kelvin: 6329
-      min_mireds: 158
-      max_mireds: 495
-      effect_list:
-      - colorloop
-      supported_color_modes:
-      - color_temp
-      - xy
-      effect:
-      color_mode: color_temp
-      brightness: 230
-      color_temp_kelvin: 2020
-      color_temp: 495
-      hs_color:
-      - 30.512
-      - 93.472
-      rgb_color:
-      - 255
-      - 137
-      - 16
-      xy_color:
-      - 0.597
-      - 0.383
-      off_with_transition: false
-      off_brightness:
-      friendly_name: light-kitchenworktop-1 Light
-      supported_features: 44
-      state: 'on'
-    light.light_kitchenworktop_2_light:
-      min_color_temp_kelvin: 2020
-      max_color_temp_kelvin: 6329
-      min_mireds: 158
-      max_mireds: 495
-      effect_list:
-      - colorloop
-      supported_color_modes:
-      - color_temp
-      - xy
-      effect:
-      color_mode: color_temp
-      brightness: 230
-      color_temp_kelvin: 2020
-      color_temp: 495
-      hs_color:
-      - 30.512
-      - 93.472
-      rgb_color:
-      - 255
-      - 137
-      - 16
-      xy_color:
-      - 0.597
-      - 0.383
-      off_with_transition: false
-      off_brightness:
-      friendly_name: light-kitchenworktop-2 Light
-      supported_features: 44
-      state: 'on'
-  metadata: {}
-- id: '1721081697856'
-  name: kitchen-cooking-bright
-  entities:
-    light.light_kitchensofa_3_light:
-      min_color_temp_kelvin: 2202
-      max_color_temp_kelvin: 4000
-      min_mireds: 250
-      max_mireds: 454
-      supported_color_modes:
-      - color_temp
-      color_mode:
-      brightness:
-      color_temp_kelvin:
-      color_temp:
-      hs_color:
-      rgb_color:
-      xy_color:
-      off_with_transition: false
-      off_brightness: 204
-      friendly_name: light-kitchensofa-3 Light
-      supported_features: 40
-      state: 'off'
-    light.ikea_of_sweden_tradfribulbgu10ws345lm_light:
-      min_color_temp_kelvin: 2202
-      max_color_temp_kelvin: 4000
-      min_mireds: 250
-      max_mireds: 454
-      supported_color_modes:
-      - color_temp
-      color_mode:
-      brightness:
-      color_temp_kelvin:
-      color_temp:
-      hs_color:
-      rgb_color:
-      xy_color:
-      off_with_transition: false
-      off_brightness: 204
-      friendly_name: light-kitchensofa-4 Light
-      supported_features: 40
-      state: 'off'
-    light.light_kitchensofa_c4_light_3:
-      min_color_temp_kelvin: 2202
-      max_color_temp_kelvin: 4000
-      min_mireds: 250
-      max_mireds: 454
-      effect_list:
-      - colorloop
-      supported_color_modes:
-      - color_temp
-      - xy
-      effect:
-      color_mode:
-      brightness:
-      color_temp_kelvin:
-      color_temp:
-      hs_color:
-      rgb_color:
-      xy_color:
-      off_with_transition: false
-      off_brightness: 204
-      friendly_name: light-kitchensofa-c4 Light
-      supported_features: 44
-      state: 'off'
-    light.light_kitchensofa_c5_light_2:
-      min_color_temp_kelvin: 2202
-      max_color_temp_kelvin: 4000
-      min_mireds: 250
-      max_mireds: 454
-      effect_list:
-      - colorloop
-      supported_color_modes:
-      - color_temp
-      - xy
-      effect:
-      color_mode:
-      brightness:
-      color_temp_kelvin:
-      color_temp:
-      hs_color:
-      rgb_color:
-      xy_color:
-      off_with_transition: false
-      off_brightness: 204
+      off_brightness: 128
       friendly_name: light-kitchensofa-c5 Light
       supported_features: 44
       state: 'off'
@@ -870,25 +643,18 @@
       - color_temp
       - xy
       effect:
-      color_mode: color_temp
-      brightness: 230
-      color_temp_kelvin: 4000
-      color_temp: 250
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
       hs_color:
-      - 26.812
-      - 34.87
       rgb_color:
-      - 255
-      - 205
-      - 166
       xy_color:
-      - 0.421
-      - 0.364
       off_with_transition: false
-      off_brightness:
+      off_brightness: 230
       friendly_name: light-kitchenkitchen-c1 Light
       supported_features: 44
-      state: 'on'
+      state: 'off'
     light.light_kitchenkitchen_c2_light:
       min_color_temp_kelvin: 2202
       max_color_temp_kelvin: 4000
@@ -900,25 +666,18 @@
       - color_temp
       - xy
       effect:
-      color_mode: color_temp
-      brightness: 230
-      color_temp_kelvin: 4000
-      color_temp: 250
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
       hs_color:
-      - 26.812
-      - 34.87
       rgb_color:
-      - 255
-      - 205
-      - 166
       xy_color:
-      - 0.421
-      - 0.364
       off_with_transition: false
-      off_brightness:
+      off_brightness: 230
       friendly_name: light-kitchenkitchen-c2 Light
       supported_features: 44
-      state: 'on'
+      state: 'off'
     light.light_kitchenkitchen_c3_light:
       min_color_temp_kelvin: 2202
       max_color_temp_kelvin: 4000
@@ -930,25 +689,18 @@
       - color_temp
       - xy
       effect:
-      color_mode: color_temp
-      brightness: 230
-      color_temp_kelvin: 4000
-      color_temp: 250
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
       hs_color:
-      - 26.812
-      - 34.87
       rgb_color:
-      - 255
-      - 205
-      - 166
       xy_color:
-      - 0.421
-      - 0.364
       off_with_transition: false
-      off_brightness:
+      off_brightness: 230
       friendly_name: light-kitchenkitchen-c3 Light
       supported_features: 44
-      state: 'on'
+      state: 'off'
     light.light_kitchenworktop_1_light:
       min_color_temp_kelvin: 2020
       max_color_temp_kelvin: 6329
@@ -1009,9 +761,28 @@
       friendly_name: light-kitchenworktop-2 Light
       supported_features: 44
       state: 'on'
+    light.light_kitchenkitchen_1_light_2:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 212
+      friendly_name: light-kitchenkitchen-1 Light
+      supported_features: 40
+      state: 'off'
   metadata: {}
-- id: '1721081963357'
-  name: kitchen-cooking-dining-bright
+- id: '1721081697856'
+  name: kitchen-cooking-bright
   entities:
     light.light_kitchensofa_3_light:
       min_color_temp_kelvin: 2202
@@ -1097,6 +868,292 @@
       friendly_name: light-kitchensofa-c5 Light
       supported_features: 44
       state: 'off'
+    light.light_kitchendiningroom_5:
+      supported_color_modes:
+      - brightness
+      color_mode:
+      brightness:
+      off_with_transition: false
+      off_brightness: 230
+      friendly_name: light-kitchendiningroom-5 Light
+      supported_features: 40
+      state: 'off'
+    light.light_kitchenkitchen_2_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 234
+      friendly_name: light-kitchenkitchen-2 Light
+      supported_features: 40
+      state: 'off'
+    light.light_kitchenkitchen_c1_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode: color_temp
+      brightness: 230
+      color_temp_kelvin: 4000
+      color_temp: 250
+      hs_color:
+      - 26.812
+      - 34.87
+      rgb_color:
+      - 255
+      - 205
+      - 166
+      xy_color:
+      - 0.421
+      - 0.364
+      off_with_transition: false
+      off_brightness:
+      friendly_name: light-kitchenkitchen-c1 Light
+      supported_features: 44
+      state: 'on'
+    light.light_kitchenkitchen_c2_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode: color_temp
+      brightness: 230
+      color_temp_kelvin: 4000
+      color_temp: 250
+      hs_color:
+      - 26.812
+      - 34.87
+      rgb_color:
+      - 255
+      - 205
+      - 166
+      xy_color:
+      - 0.421
+      - 0.364
+      off_with_transition: false
+      off_brightness:
+      friendly_name: light-kitchenkitchen-c2 Light
+      supported_features: 44
+      state: 'on'
+    light.light_kitchenkitchen_c3_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode: color_temp
+      brightness: 230
+      color_temp_kelvin: 4000
+      color_temp: 250
+      hs_color:
+      - 26.812
+      - 34.87
+      rgb_color:
+      - 255
+      - 205
+      - 166
+      xy_color:
+      - 0.421
+      - 0.364
+      off_with_transition: false
+      off_brightness:
+      friendly_name: light-kitchenkitchen-c3 Light
+      supported_features: 44
+      state: 'on'
+    light.light_kitchenworktop_1_light:
+      min_color_temp_kelvin: 2020
+      max_color_temp_kelvin: 6329
+      min_mireds: 158
+      max_mireds: 495
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode: color_temp
+      brightness: 230
+      color_temp_kelvin: 2020
+      color_temp: 495
+      hs_color:
+      - 30.512
+      - 93.472
+      rgb_color:
+      - 255
+      - 137
+      - 16
+      xy_color:
+      - 0.597
+      - 0.383
+      off_with_transition: false
+      off_brightness:
+      friendly_name: light-kitchenworktop-1 Light
+      supported_features: 44
+      state: 'on'
+    light.light_kitchenworktop_2_light:
+      min_color_temp_kelvin: 2020
+      max_color_temp_kelvin: 6329
+      min_mireds: 158
+      max_mireds: 495
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode: color_temp
+      brightness: 230
+      color_temp_kelvin: 2020
+      color_temp: 495
+      hs_color:
+      - 30.512
+      - 93.472
+      rgb_color:
+      - 255
+      - 137
+      - 16
+      xy_color:
+      - 0.597
+      - 0.383
+      off_with_transition: false
+      off_brightness:
+      friendly_name: light-kitchenworktop-2 Light
+      supported_features: 44
+      state: 'on'
+    light.light_kitchenkitchen_1_light_2:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 212
+      friendly_name: light-kitchenkitchen-1 Light
+      supported_features: 40
+      state: 'off'
+  metadata: {}
+- id: '1721081963357'
+  name: kitchen-dining-bright
+  entities:
+    light.light_kitchensofa_3_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 204
+      friendly_name: light-kitchensofa-3 Light
+      supported_features: 40
+      state: 'off'
+    light.ikea_of_sweden_tradfribulbgu10ws345lm_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 204
+      friendly_name: light-kitchensofa-4 Light
+      supported_features: 40
+      state: 'off'
+    light.light_kitchensofa_c4_light_3:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 204
+      friendly_name: light-kitchensofa-c4 Light
+      supported_features: 44
+      state: 'off'
+    light.light_kitchensofa_c5_light_2:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 204
+      friendly_name: light-kitchensofa-c5 Light
+      supported_features: 44
+      state: 'off'
     light.light_kitchenkitchen_2_light:
       min_color_temp_kelvin: 2202
       max_color_temp_kelvin: 4000
@@ -1234,16 +1291,35 @@
     light.light_kitchendiningroom_5:
       supported_color_modes:
       - brightness
+      color_mode: brightness
+      brightness: 230
+      off_with_transition: false
+      off_brightness:
+      friendly_name: light-kitchendiningroom-5 Light
+      supported_features: 40
+      state: 'on'
+    light.light_kitchenkitchen_1_light_2:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
       color_mode:
       brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
       off_with_transition: false
-      off_brightness: 230
-      friendly_name: light-kitchendiningroom-5 Light
+      off_brightness: 212
+      friendly_name: light-kitchenkitchen-1 Light
       supported_features: 40
       state: 'off'
   metadata: {}
 - id: '1721081971000'
-  name: kitchen-cooking-dining-dim
+  name: kitchen-dining-dim
   entities:
     light.light_kitchensofa_3_light:
       min_color_temp_kelvin: 2202
@@ -1472,5 +1548,284 @@
       off_brightness: 230
       friendly_name: light-kitchenworktop-2 Light
       supported_features: 44
+      state: 'off'
+  metadata: {}
+- id: '1721083497942'
+  name: Kkitchen-sofa-dim
+  entities:
+    light.light_kitchensofa_3_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode: color_temp
+      brightness: 102
+      color_temp_kelvin: 2816
+      color_temp: 355
+      hs_color:
+      - 28.156
+      - 62.138
+      rgb_color:
+      - 255
+      - 170
+      - 96
+      xy_color:
+      - 0.515
+      - 0.385
+      off_with_transition: false
+      off_brightness:
+      friendly_name: light-kitchensofa-3 Light
+      supported_features: 40
+      state: 'on'
+    light.ikea_of_sweden_tradfribulbgu10ws345lm_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode: color_temp
+      brightness: 128
+      color_temp_kelvin: 2816
+      color_temp: 355
+      hs_color:
+      - 28.156
+      - 62.138
+      rgb_color:
+      - 255
+      - 170
+      - 96
+      xy_color:
+      - 0.515
+      - 0.385
+      off_with_transition: false
+      off_brightness:
+      friendly_name: light-kitchensofa-4 Light
+      supported_features: 40
+      state: 'on'
+    light.light_kitchensofa_c4_light_3:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode: color_temp
+      brightness: 102
+      color_temp_kelvin: 2816
+      color_temp: 355
+      hs_color:
+      - 28.156
+      - 62.138
+      rgb_color:
+      - 255
+      - 170
+      - 96
+      xy_color:
+      - 0.515
+      - 0.385
+      off_with_transition: false
+      off_brightness:
+      friendly_name: light-kitchensofa-c4 Light
+      supported_features: 44
+      state: 'on'
+    light.light_kitchensofa_c5_light_2:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode: color_temp
+      brightness: 102
+      color_temp_kelvin: 2816
+      color_temp: 355
+      hs_color:
+      - 28.156
+      - 62.138
+      rgb_color:
+      - 255
+      - 170
+      - 96
+      xy_color:
+      - 0.515
+      - 0.385
+      off_with_transition: false
+      off_brightness:
+      friendly_name: light-kitchensofa-c5 Light
+      supported_features: 44
+      state: 'on'
+    light.light_kitchendiningroom_5:
+      supported_color_modes:
+      - brightness
+      color_mode:
+      brightness:
+      off_with_transition: false
+      off_brightness: 102
+      friendly_name: light-kitchendiningroom-5 Light
+      supported_features: 40
+      state: 'off'
+    light.light_kitchenkitchen_2_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 234
+      friendly_name: light-kitchenkitchen-2 Light
+      supported_features: 40
+      state: 'off'
+    light.light_kitchenkitchen_c1_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 230
+      friendly_name: light-kitchenkitchen-c1 Light
+      supported_features: 44
+      state: 'off'
+    light.light_kitchenkitchen_c2_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 230
+      friendly_name: light-kitchenkitchen-c2 Light
+      supported_features: 44
+      state: 'off'
+    light.light_kitchenkitchen_c3_light:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 230
+      friendly_name: light-kitchenkitchen-c3 Light
+      supported_features: 44
+      state: 'off'
+    light.light_kitchenworktop_1_light:
+      min_color_temp_kelvin: 2020
+      max_color_temp_kelvin: 6329
+      min_mireds: 158
+      max_mireds: 495
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 230
+      friendly_name: light-kitchenworktop-1 Light
+      supported_features: 44
+      state: 'off'
+    light.light_kitchenworktop_2_light:
+      min_color_temp_kelvin: 2020
+      max_color_temp_kelvin: 6329
+      min_mireds: 158
+      max_mireds: 495
+      effect_list:
+      - colorloop
+      supported_color_modes:
+      - color_temp
+      - xy
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 230
+      friendly_name: light-kitchenworktop-2 Light
+      supported_features: 44
+      state: 'off'
+    light.light_kitchenkitchen_1_light_2:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 4000
+      min_mireds: 250
+      max_mireds: 454
+      supported_color_modes:
+      - color_temp
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      off_with_transition: false
+      off_brightness: 212
+      friendly_name: light-kitchenkitchen-1 Light
+      supported_features: 40
       state: 'off'
   metadata: {}
