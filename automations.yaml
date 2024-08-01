@@ -17,3 +17,76 @@
       motion_entity: binary_sensor.motion_utility_1_occupancy
       light_target:
         entity_id: light.zigbee_grouped_devices_lights_utility_all
+- id: '1722465212598'
+  alias: dimmer-blueroom-1
+  description: ''
+  use_blueprint:
+    path: manix84/zha-hue-remote-button-mapper.yaml
+    input:
+      dimmer_device_id: 7bb89d3e0cdb447ad8bf38c09f1fa38d
+      btn_on_single_press_action:
+      - service: light.turn_on
+        metadata: {}
+        data: {}
+        target:
+          area_id: blue_room
+      btn_off_single_press_action:
+      - service: light.turn_off
+        target:
+          entity_id:
+          - light.light_blueroom_1_light
+        data: {}
+      btn_down_single_press_action:
+      - service: light.turn_on
+        target:
+          area_id:
+          - blue_room
+        data:
+          brightness_step_pct: -5
+      btn_up_single_press_action:
+      - service: light.turn_on
+        target:
+          area_id:
+          - blue_room
+        data:
+          brightness_step_pct: 5
+- id: '1722466010239'
+  alias: kitchen dimmer
+  description: ''
+  use_blueprint:
+    path: manix84/zha-hue-remote-button-mapper.yaml
+    input:
+      dimmer_device_id: 05d8b36e5dd4fe9eaeee8ef9725f64c9
+      btn_on_single_press_action:
+      - service: light.turn_on
+        metadata: {}
+        data: {}
+        target:
+          area_id: kitchen
+      btn_off_single_press_action:
+      - service: light.turn_off
+        data: {}
+        target:
+          area_id: kitchen
+      btn_down_single_press_action:
+      - service: light.turn_on
+        data:
+          brightness_step_pct: -5
+        target:
+          area_id: kitchen
+      btn_up_single_press_action:
+      - service: light.turn_on
+        data:
+          brightness_step_pct: 5
+        target:
+          area_id: kitchen
+- id: '1722543646313'
+  alias: button-blinds-blueroom-1
+  description: ''
+  use_blueprint:
+    path: cliviu74/ikea-on-off-button-e1743-to-control-covers-blinds.yaml
+    input:
+      button: sensor.open_close_remote_blueroom_1_battery
+      cover:
+        device_id:
+        - 4ca7ee00d6c57c5a1488c729d362ba97
